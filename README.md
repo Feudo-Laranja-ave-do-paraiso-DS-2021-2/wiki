@@ -7,11 +7,11 @@
 </h1>
 
 <p align="center">
-  <a href="https://Feudo-Laranja-ave-do-paraiso-DS-2021-2.github.io/docs" target="_blank" alt="Feudo Laranja ave do paraíso - Documentação"><img src="https://img.shields.io/badge/Feudo%20Laranja%20ave%20do%20paraíso-Docs-black"></a>
+  <a href="https://Feudo-Laranja-ave-do-paraiso-DS-2021-2.github.io/wiki/docs" target="_blank" alt="Feudo Laranja ave do paraíso - Documentação"><img src="https://img.shields.io/badge/Feudo%20Laranja%20ave%20do%20paraíso-Docs-black"></a>
   <a href="hhttps://github.com/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki/pulls" target="_blank" alt="Feudo Laranja ave do paraíso - Pull Requests"><img src="https://img.shields.io/github/issues-pr/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki?color=red&label=Pull%20Requests"></a>
 </p>
 
-## <p align="left"><a href="https://Feudo-Laranja-ave-do-paraiso-DS-2021-2.github.io">Visualizar documentação online</a></p>
+## <p align="left"><a href="https://Feudo-Laranja-ave-do-paraiso-DS-2021-2.github.io/wiki">Visualizar documentação online</a></p>
 
 ## Rode a Wiki com Docker
 
