@@ -2,11 +2,11 @@
 site_name: "Feudo Laranja ave do paraíso"
 site_description: ""
 site_author: "Feudo Laranja ave do paraíso"
-site_url: "https://Feudo-Laranja-ave-do-paraiso-DS-2021-2.github.io/wiki"
+site_url: "https://Feudo-Laranja-ave-do-paraiso-DS-2021-2.github.io/wiki/"
 
 # Repository
 repo_name: "doc"
-repo_url: "https://github.com/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki"
+repo_url: "https://github.com/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki/"
 
 # Copyright
 copyright: "Copyright &copy; 2022 Feudo Laranja ave do paraíso"
@@ -28,6 +28,7 @@ theme:
 
 # Content Menu
 nav:
+  - docs: docs.md
   
 # Style
 extra_css:
