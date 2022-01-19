@@ -1,0 +1,68 @@
+# Project information
+site_name: "Feudo Laranja ave do paraíso"
+site_description: ""
+site_author: "Feudo Laranja ave do paraíso"
+site_url: "https://Feudo-Laranja-ave-do-paraiso-DS-2021-2.github.io"
+
+# Repository
+repo_name: "doc"
+repo_url: "https://github.com/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki"
+
+# Copyright
+copyright: "Copyright &copy; 2022 Feudo Laranja ave do paraíso"
+
+# Theme settings
+theme:
+  logo: assets/img/logo.png
+  favicon: assets/img/logo.png
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+  features:
+    - navigation.tabs
+  language: "pt"
+  name: "material"
+  palette:
+    primary: "orange"
+    accent: "grey"
+
+# Content Menu
+nav:
+  
+# Style
+extra_css:
+  - assets/css/extra.css
+
+# Markdown extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - codehilite:
+      linenums: true
+  - footnotes
+  - meta
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
