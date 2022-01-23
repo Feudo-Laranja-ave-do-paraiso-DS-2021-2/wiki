@@ -28,7 +28,10 @@ theme:
 
 # Content Menu
 nav:
-  - docs: docs.md
+  - Gerência:
+    - Plano metodológico: "management/methodology-plan.md"
+    - Plano de comunicação: "management/communication-plan.md"
+    - Quadro de disponibilidade: "management/availability-board.md"
   
 # Style
 extra_css:
