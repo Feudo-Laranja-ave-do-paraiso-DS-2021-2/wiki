@@ -1,6 +1,6 @@
 # Guia de Contribuição
 
-Antes de realizar uma contribuição, conheça um pouco sobre o Feudo Laranja Ave do Paraíso na nossa [documentação](https://feudo-laranja-ave-do-paraiso-ds-2021-2.github.io/wiki/management/methodology-plan/).
+Antes de realizar uma contribuição, conheça um pouco sobre o Feudo Laranja Ave do Paraíso na nossa [documentação](https://feudo-laranja-ave-do-paraiso-ds-2021-2.github.io/wiki/).
 
 ## Histórico de revisão
 
