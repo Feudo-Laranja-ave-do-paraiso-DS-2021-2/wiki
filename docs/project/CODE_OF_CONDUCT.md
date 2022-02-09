@@ -1,5 +1,13 @@
 # Código de conduta
 
+## Histórico de revisão
+
+| Data       | Autores                                      | Modificações                      | Versão |
+| ---------- | -------------------------------------------- | --------------------------------- | ------ |
+| 08/02/2022 | [Pedro Muniz](https://github.com/PedroFMuniz)| Adição do código de conduta       |   1.0  |
+| 08/02/2022 | [Pedro Sampaio](https://github.com/PedroSampaioDias)| Adição do código de conduta       |   1.0  |
+| 08/02/2022 | [Leandro Souza](https://github.com/Leanddro13)| Adição do código de conduta       |   1.0  |
+
 ## Propósito
 
 O projeto é mantido por estudantes durante a execução da disciplina de Desenvolvimento de Software da Universidade de Brasília.
