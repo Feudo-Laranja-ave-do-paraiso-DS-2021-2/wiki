@@ -34,6 +34,7 @@ nav:
     - Quadro de disponibilidade: "management/availability-board.md"
   - Projeto:
     - Comunidade:
+      - Guia de contribuição: "project/CONTRIBUTING.md"
       - Código de conduta: "project/CODE_OF_CONDUCT.md"
   
 # Style
