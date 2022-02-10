@@ -1,0 +1,974 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Feudo Laranja ave do paraíso">
+      
+      
+        <link rel="canonical" href="https://Feudo-Laranja-ave-do-paraiso-DS-2021-2.github.io/wiki/project/CONTRIBUTING/">
+      
+      <link rel="icon" href="../../assets/img/logo.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.10">
+    
+    
+      
+        <title>Guia de contribuição - Feudo Laranja ave do paraíso</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.d6be258b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffa724">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="orange" data-md-color-accent="grey">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guia-de-contribuicao" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Feudo Laranja ave do paraíso" class="md-header__button md-logo" aria-label="Feudo Laranja ave do paraíso" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Feudo Laranja ave do paraíso
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Guia de contribuição
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    doc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../management/methodology-plan/" class="md-tabs__link">
+        Gerência
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Projeto
+      </a>
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Feudo Laranja ave do paraíso" class="md-nav__button md-logo" aria-label="Feudo Laranja ave do paraíso" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    Feudo Laranja ave do paraíso
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    doc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Gerência
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Gerência" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Gerência
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../management/methodology-plan/" class="md-nav__link">
+        Plano metodológico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../management/communication-plan/" class="md-nav__link">
+        Plano de comunicação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../management/availability-board/" class="md-nav__link">
+        Quadro de disponibilidade
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Projeto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projeto" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Projeto
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Comunidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Comunidade" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Comunidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Guia de contribuição
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Guia de contribuição
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisao" class="md-nav__link">
+    Histórico de revisão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-contribuir" class="md-nav__link">
+    Como contribuir?
+  </a>
+  
+    <nav class="md-nav" aria-label="Como contribuir?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#politica-de-issues" class="md-nav__link">
+    Política de Issues
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gitflow" class="md-nav__link">
+    Gitflow
+  </a>
+  
+    <nav class="md-nav" aria-label="Gitflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacao" class="md-nav__link">
+    Documentação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codigo" class="md-nav__link">
+    Código
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#politica-de-branches" class="md-nav__link">
+    Política de Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Política de Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main" class="md-nav__link">
+    main
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dev" class="md-nav__link">
+    dev
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nome-das-branches" class="md-nav__link">
+    Nome das Branches
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#politica-de-commits" class="md-nav__link">
+    Política de Commits
+  </a>
+  
+    <nav class="md-nav" aria-label="Política de Commits">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titulo-dos-commits" class="md-nav__link">
+    Título dos Commits
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#politica-de-merges-e-pull-requests" class="md-nav__link">
+    Política de Merges e Pull Requests
+  </a>
+  
+    <nav class="md-nav" aria-label="Política de Merges e Pull Requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pull-requests" class="md-nav__link">
+    Pull Requests
+  </a>
+  
+    <nav class="md-nav" aria-label="Pull Requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#code-review" class="md-nav__link">
+    Code Review
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CODE_OF_CONDUCT/" class="md-nav__link">
+        Código de conduta
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisao" class="md-nav__link">
+    Histórico de revisão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-contribuir" class="md-nav__link">
+    Como contribuir?
+  </a>
+  
+    <nav class="md-nav" aria-label="Como contribuir?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#politica-de-issues" class="md-nav__link">
+    Política de Issues
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gitflow" class="md-nav__link">
+    Gitflow
+  </a>
+  
+    <nav class="md-nav" aria-label="Gitflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacao" class="md-nav__link">
+    Documentação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codigo" class="md-nav__link">
+    Código
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#politica-de-branches" class="md-nav__link">
+    Política de Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Política de Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main" class="md-nav__link">
+    main
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dev" class="md-nav__link">
+    dev
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nome-das-branches" class="md-nav__link">
+    Nome das Branches
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#politica-de-commits" class="md-nav__link">
+    Política de Commits
+  </a>
+  
+    <nav class="md-nav" aria-label="Política de Commits">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titulo-dos-commits" class="md-nav__link">
+    Título dos Commits
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#politica-de-merges-e-pull-requests" class="md-nav__link">
+    Política de Merges e Pull Requests
+  </a>
+  
+    <nav class="md-nav" aria-label="Política de Merges e Pull Requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pull-requests" class="md-nav__link">
+    Pull Requests
+  </a>
+  
+    <nav class="md-nav" aria-label="Pull Requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#code-review" class="md-nav__link">
+    Code Review
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki/edit/master/docs/project/CONTRIBUTING.md" title="Editar esta página" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h1 id="guia-de-contribuicao">Guia de Contribuição</h1>
+<p>Antes de realizar uma contribuição, conheça um pouco sobre o Feudo Laranja Ave do Paraíso na nossa <a href="https://feudo-laranja-ave-do-paraiso-ds-2021-2.github.io/wiki/">documentação</a>.</p>
+<h2 id="historico-de-revisao">Histórico de revisão</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Autor</th>
+<th>Modificações</th>
+<th>Versão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>08/02/2022</td>
+<td><a href="https://github.com/marcusmartinsxx">Marcus Martins</a> e <a href="https://github.com/marcusmartinsxx">Victório Lázaro</a></td>
+<td>Adicionou o Guia de Contribuição da equipe</td>
+<td>1.0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="como-contribuir">Como contribuir?</h2>
+<p>Contribuições ao projeto são muito bem-vindas. Para manter um projeto bem organizado, ao contribuir observe as políticas abaixo:</p>
+<ul>
+<li>Caso seja um contribuidor externo, faça um <em>fork</em> do repositório e submeta as modificações através de <em>pull request</em>;</li>
+<li><a href="./#política-de-issues">Políticas de <em>issues</em></a>;</li>
+<li><a href="./#política-de-branches">Política de <em>branchs</em></a>;</li>
+<li><a href="./#política-de-commits">Política de <em>commits</em></a>;</li>
+<li><a href="./#política-de-merges-e-pull-requests">Política de <em>merges</em> e <em>pull request</em></a>.</li>
+</ul>
+<h3 id="politica-de-issues">Política de Issues</h3>
+<p>Para criação de issue, um <a href="https://github.com/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki/issues/new/choose">template de issue</a> deve ser seguido.</p>
+<p>Caso encontre um bug ou tenha alguma sugestão de melhoria ao projeto, siga os passos abaixo:</p>
+<ol>
+<li>Verifique se já existe a <a href="https://github.com/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki/issues">issue no repositório</a>;</li>
+<li>Caso não exista nenhuma issue relacionada, <a href="https://github.com/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki/issues/new/choose">crie uma issue</a>;</li>
+<li>Escolha o template de issue;</li>
+<li>Preencha a issue de acordo com a orientação do template;</li>
+<li>Defina as labels que são pertinentes ao problema ou sugestão;</li>
+<li>Se aplicável, defina os responsáveis pela issue, o milestone e o projeto.</li>
+<li>Retire dúvidas através da issue.</li>
+</ol>
+<h3 id="gitflow">Gitflow</h3>
+<p>Para contribuir com o projeto, observe as políticas adotadas em relação a padronização e organização de código e documentação.</p>
+<h4 id="documentacao">Documentação</h4>
+<p>Regras:</p>
+<ol>
+<li>Novas <em>branchs</em> devem ser criadas a partir da <em>main</em>;</li>
+<li>Depois de fazer modificações na <em>branch</em>, submete-a por <em>pull request</em> para integrar a <em>branch</em> principal (<em>main</em>);</li>
+<li>Após aprovado ou recusado o <em>pull request</em>, apague a <em>branch</em>.</li>
+</ol>
+<h4 id="codigo">Código</h4>
+<ol>
+<li>Novas <em>branchs</em> devem ser criadas a partir da <em>dev</em>;</li>
+<li>Depois de fazer modificações na <em>branch</em>, submete-a por <em>pull request</em> para integrar a <em>branch</em> secundária (<em>dev</em>);</li>
+<li>Após aprovado ou recusado o <em>pull request</em>, apague a <em>branch</em>.</li>
+</ol>
+<h3 id="politica-de-branches">Política de <em>Branches</em></h3>
+<h4 id="main"><em>main</em></h4>
+<p><em>main</em> é a <em>branch</em> de produção, onde se encontra a versão que estará disponível para utilização no mercado.</p>
+<h4 id="dev"><em>dev</em></h4>
+<p><em>dev</em> é a <em>branch</em> de homologação, onde se encontra a versão mais atualizada do projeto.</p>
+<h4 id="nome-das-branches">Nome das <em>Branches</em></h4>
+<p>Crie a <em>branch</em> com a seguinte estrutura:</p>
+<div class="highlight"><pre><span></span><code><span class="o">[</span>número-da-issue<span class="o">]</span>-&lt;nome-significativo-da-branch-separada-por-hífens-com-letras-minusculas-sem-acento&gt;
+</code></pre></div>
+<h3 id="politica-de-commits">Política de Commits</h3>
+<p>Os commits deverão ser feitos em inglês iniciando com um verbo no presente simples, como, por exemplo: "Create a new API entrypoint".</p>
+<p>Para commits individuais, use: <code>git commit -m "Mensagem"</code>.
+Para commits em pares, digite <code>git commit</code> e atribua os <em>co-authoreds</em> na mensagem:</p>
+<div class="highlight"><pre><span></span><code>Mensagem <span class="k">do</span> commit
+Co-authored-by: Nome e sobrenome <span class="k">do</span> parceiro<span class="o">(</span>a<span class="o">)</span> &lt;email@email.com&gt;
+</code></pre></div>
+<ul>
+<li>Observação: quebrar duas linhas após a mensagme do commit.</li>
+</ul>
+<h4 id="titulo-dos-commits">Título dos <em>Commits</em></h4>
+<p>Commits devem seguir os seguintes modelos:</p>
+<ul>
+<li>Commit de correção de <em>bugs</em> ou falhas na <em>main</em>: <code>[HOTFIX] Mensagem</code>;</li>
+<li>Commits de correção de <em>bugs</em> ou falhas gerais: <code>[FIX] Mensagem</code>;</li>
+<li>Os demais commits devem seguir o modelo: <code>Mensagem</code>.</li>
+</ul>
+<h3 id="politica-de-merges-e-pull-requests">Política de <em>Merges</em> e <em>Pull Requests</em></h3>
+<h4 id="pull-requests"><em>Pull Requests</em></h4>
+<p>Pull requests serão realizados para controle de estabilidade das <em>branches</em>:</p>
+<ul>
+<li><em>main</em>;</li>
+<li><em>dev</em>.</li>
+</ul>
+<p>Quando disponível uma nova <em>release</em> ou funcionalidade, esta será integrada através de <em>pull request</em> na <em>branch main</em>.</p>
+<p>Caso um <em>pull request</em> já estava aberto e atualmente está em progresso, o título deve seguir o padrão <code>[WIP] Título</code>.</p>
+<p>Durante a criação de um <em>pull request</em>, deve-se observar o <a href="https://github.com/Feudo-Laranja-ave-do-paraiso-DS-2021-2/wiki/compare">template definido no repositório</a>.</p>
+<h5 id="code-review"><em>Code Review</em></h5>
+<p>Na revisão de código de <em>pull request</em>, observe os pontos abaixo:</p>
+<ul>
+<li>O <em>pull request</em> deve ser aceito por pelo menos um membro da equipe;</li>
+<li>O revisor deve clonar a <em>branch</em> do <em>pull request</em> e verificar se as modificações de código ou documentação são coerente;</li>
+<li>Em caso de aceitação do <em>pull request</em>, deve-se fazer a aprovação e realizar o merge;</li>
+<li>Caso o <em>pull request</em> esteja faltando algum requisito, deve-se informar ao contribuidor as mudanças necessárias;</li>
+<li>Caso o <em>pull request</em> não faça sentido, já tenha sido resolvido ou seja duplicado, deve ser fechado e feito um comentário a respeito.</li>
+</ul>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Rodapé">
+      
+        
+        <a href="../../management/availability-board/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Quadro de disponibilidade" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Quadro de disponibilidade
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../CODE_OF_CONDUCT/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Código de conduta" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              Código de conduta
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 Feudo Laranja ave do paraíso
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}, "search": "../../assets/javascripts/workers/search.092fa1f6.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e3b2bf44.min.js"></script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
