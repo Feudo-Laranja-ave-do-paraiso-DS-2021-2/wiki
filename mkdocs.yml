@@ -32,7 +32,9 @@ nav:
     - Plano metodológico: "management/methodology-plan.md"
     - Plano de comunicação: "management/communication-plan.md"
     - Quadro de disponibilidade: "management/availability-board.md"
-    - Guia de contribuição: "project/CONTRIBUTING.md"
+  - Projeto:
+    - Comunidade:
+      - Guia de contribuição: "project/CONTRIBUTING.md"
   
 # Style
 extra_css:
