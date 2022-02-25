@@ -6,7 +6,7 @@ Antes de realizar uma contribuição, conheça um pouco sobre o Feudo Laranja Av
 
 | Data       | Autor                            | Modificações                               | Versão |
 | ---------- | -------------------------------- | ------------------------------------------ | ------ |
-| 08/02/2022 | [Marcus Martins](https://github.com/marcusmartinsxx) e [Victório Lázaro](https://github.com/marcusmartinsxx) | Adicionou o Guia de Contribuição da equipe | 1.0    |
+| 08/02/2022 | [Marcus Martins](https://github.com/marcusmartinsxx) e [Victório Lázaro](https://github.com/Victor-oss) | Adicionou o Guia de Contribuição da equipe | 1.0    |
 
 ## Como contribuir?
 
